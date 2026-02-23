@@ -17,4 +17,7 @@ USE startersql;
 -- UPDATE users SET name = 'Aisha Khan' WHERE email = 'aisha@example.com';
 -- UPDATE users SET salary = salary + 10000 WHERE salary < 60000;
 
+-- DELETE FROM users WHERE id=3;
+-- DROP TABLE users;
+
 SELECT * FROM users;
