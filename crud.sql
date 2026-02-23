@@ -13,4 +13,8 @@ USE startersql;
 -- SELECT * FROM users WHERE gender = 'Male' AND salary>'70000';
 -- SELECT * FROM users WHERE gender = 'Male' OR salary>'65000' ORDER BY date_of_birth DESC LIMIT 5;
 
+-- UPDATE users SET salary = 70000 WHERE id = 5;
+-- UPDATE users SET name = 'Aisha Khan' WHERE email = 'aisha@example.com';
+-- UPDATE users SET salary = salary + 10000 WHERE salary < 60000;
+
 SELECT * FROM users;
